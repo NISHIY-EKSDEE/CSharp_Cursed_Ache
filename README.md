@@ -10,10 +10,18 @@
 --------------------------------------------------------------------------
 
 ***Front-end:***
-React + Redux,
+React + Redux,<br/>
 Компоненты из Reactstrap
 
 ***Back-end:***
 ASP .NET Core Web API
 
-Для работы с файлами Word используется пакет GemBox.Document
+Для работы с файлами Word используется пакет GemBox.Document<br/>
+
+Остальные пакеты:<br/>
+
+Microsoft.AspNetCore.SpaServices.Extensions (3.1.3)<br/>
+Microsoft.TypeScript.Compiler (3.1.5)<br/>
+Microsoft.VisualStudio.Web.CodeGeneration.Design (3.1.2)<br/>
+Node.js (5.3.0)<br/>
+React.AspNet (5.2.4)
