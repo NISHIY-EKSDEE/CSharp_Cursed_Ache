@@ -10,8 +10,8 @@
 --------------------------------------------------------------------------
 
 ***Front-end:***
-React + Redux
-Компоненты из Reactsrap
+React + Redux,
+Компоненты из Reactstrap
 
 ***Back-end:***
 ASP .NET Core Web API
