@@ -1,0 +1,65 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+body{
+    background: url(./static/background28.jpg) repeat;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.error{
+    color: #ff0000;
+    background-color: pink;
+    border: thin 2px red;
+    padding: 8px;
+    margin-bottom: 4px;
+}
+
+.cursive{
+    font-size: large;
+    font-style: italic;
+}
+
+.borderRounded {
+    border-radius: 10px;
+    border: 1px solid rgba(177, 177, 177, 0.82);
+}
+
+.margin {
+    margin: 24px;
+}
+
+.margin-left{
+    margin-left: 16px;
+}
+
+.margin-bottom{
+    margin-bottom: 16px;
+}
+
+
+.padding {
+    padding: 16px;
+}
+
+.padding-top{
+    padding-top: 16px;
+}
+.filled {
+    background-color: rgba(198, 198, 198, 0.89)
+}
+
+.text-area{
+    min-height: 100px;
+}
+
