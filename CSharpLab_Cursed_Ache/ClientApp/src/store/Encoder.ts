@@ -65,7 +65,7 @@ export const actionCreators = {
 
             dispatch({ type: 'ENCODER_REQUEST' });
         }
-        else if (appState.encoderForm!.text.trim() !== "" && appState.encoderForm!.key.trim() !== "") {
+        else if (appState.encoderForm!.text != undefined && appState.encoderForm!.key != undefined && appState.encoderForm!.text.trim() !== "" && appState.encoderForm!.key.trim() !== "") {
             fetch(`api/encodetext`, {
                 method: "POST",
                 body: JSON.stringify({ text: appState.encoderForm!.text, key: appState.encoderForm!.key, action: appState.encoderForm!.action}),
